@@ -69,6 +69,11 @@ public class Main {
 //        System.out.println(random.nextBoolean());
 //        System.out.println(random.nextInt() + random.nextDouble());
 
+        //Для ограничиения диапазона случайных чисел, можно задать лимит:
+        Random random = new Random();
+        System.out.println(random.nextInt(3)); // Будет выводить от 0 до 2. Отрицательных чисел не будет
+        System.out.println(random.nextInt(3) + 1); // Будет выводить от 1 до 3. Отрицательных чисел не будет
+
 
         //equals and ==
         User user1 = new User();
@@ -83,6 +88,8 @@ public class Main {
 
         System.out.println(user1 == user2);
         System.out.println(user1.equals(user2)); // user1 == user2 (стандартная реализация)
+
+
     }
 
 

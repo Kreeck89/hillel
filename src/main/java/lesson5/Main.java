@@ -14,7 +14,7 @@ public class Main {
 //        innerConditionsExample2();
 
 //        continueBreakReturnExample();
-//        System.out.println("Main method");
+//        System.out.println("lesson1.Main method");
 
 //        Cat cat1 = new Cat();
 //        cat1.name = "Max";

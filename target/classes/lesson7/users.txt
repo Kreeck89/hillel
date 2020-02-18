@@ -1,1 +1,0 @@
-User{name='Alex', surname='Bob', email='alex@mail.com', password='null', sex='null', age=0}
